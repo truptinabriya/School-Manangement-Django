@@ -52,14 +52,14 @@ class StudentAdmission(models.Model):
     )
     
     RELIGION_CHOICES = (
-        ('Islam', 'Islam'),
+        ('Hindu', 'Hindu'),
         ('Christianity', 'Christianity'),
         ('Buddhism', 'Buddhism'),
         ('Hinduism', 'Hinduism'),
     )
     
     NATIONALITY_CHOICES = (
-        ('Bangladeshi', 'Bangladeshi'),
+        ('Indian', 'Indian'),
     )
     
     admissionFor = models.CharField(max_length=7, choices=ADMISSION_CHOICES, default='Class1')
