@@ -131,7 +131,7 @@ npx tailwindcss init
 ## Author
 
 This project was created by 
-[Author Name](https://github.com/muhammadbadrul1234).
+[Author Name](https://github.com/truptinabriya).
 
 
 
